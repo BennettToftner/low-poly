@@ -1,0 +1,6 @@
+var LOWER_RED = 0;
+var HIGHER_RED = 200;
+var LOWER_GREEN = 64;
+var HIGHER_GREEN = 200;
+var LOWER_BLUE = 200;
+var HIGHER_BLUE = 255;
