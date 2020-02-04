@@ -64,14 +64,14 @@ function generateColor(lowerRed, higherRed, lowerGreen, higherGreen, lowerBlue, 
 function generatePoints(xNum, yNum)
 {
     var points = [];
-    for (var i = 0; i < xNum; i++)
+    for (var i = -1; i <= xNum; i++)
     {
         points.push([]);
-        for (var j = 0; j < yNum; j++)
+        for (var j = -1; j <= yNum; j++)
         {
-            points[i].push([]);
-            points[i][j].push(Math.floor(Math.random() * (canvas.width / xNum)) + (i * (canvas.width / xNum)));
-            points[i][j].push(Math.floor(Math.random() * (canvas.height / yNum)) + (j * (canvas.width / yNum)));
+            points[i + 1].push([]);
+            points[i + 1][j + 1].push(Math.floor(Math.random() * (canvas.width / xNum)) + (i * (canvas.width / xNum)));
+            points[i + 1][j + 1].push(Math.floor(Math.random() * (canvas.height / yNum)) + (j * (canvas.width / yNum)));
             //points[i][j].push(Math.floor(0.5 * (canvas.width / xNum)) + (i * (canvas.width / xNum)));
             //points[i][j].push(Math.floor(0.5 * (canvas.height / yNum)) + (j * (canvas.width / yNum)));
         }
