@@ -1,5 +1,4 @@
-//TODO: make it so the network extends outside of the canvas to make it look nicer.
-//      stop triangles from overlapping
+//TODO: stop triangles from overlapping
 
 var canvas = document.getElementById("game-canvas");
 var ctx = canvas.getContext('2d');
