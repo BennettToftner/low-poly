@@ -6,10 +6,10 @@ var NUM_POINTS_Y = 10;
 
 var LOWER_RED = 220;
 var HIGHER_RED = 255;
-var LOWER_GREEN = 130;
-var HIGHER_GREEN = 180;
-var LOWER_BLUE = 180;
-var HIGHER_BLUE = 220;
+var LOWER_GREEN = 100;
+var HIGHER_GREEN = 200;
+var LOWER_BLUE = 0;
+var HIGHER_BLUE = 0;
 
 var distance = 75;
 
