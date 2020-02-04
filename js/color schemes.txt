@@ -1,6 +1,15 @@
+-Blue & purple
 var LOWER_RED = 0;
 var HIGHER_RED = 200;
 var LOWER_GREEN = 64;
 var HIGHER_GREEN = 200;
 var LOWER_BLUE = 200;
 var HIGHER_BLUE = 255;
+
+-Pink Crystal
+var LOWER_RED = 220;
+var HIGHER_RED = 255;
+var LOWER_GREEN = 130;
+var HIGHER_GREEN = 180;
+var LOWER_BLUE = 180;
+var HIGHER_BLUE = 220;
